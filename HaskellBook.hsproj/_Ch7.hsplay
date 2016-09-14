@@ -1,0 +1,81 @@
+-- Haskell Playground 1.0
+addOne 5
+
+
+
+
+
+bindExp 2
+
+
+
+let y = 121212121
+(\x -> x * 3) y
+triple y
+
+
+
+
+
+
+addOneIfOdd 5
+addOneIfOdd 6
+
+aOIO 5
+aOIO 6
+
+aF 5 6
+aF 4 5
+
+addFive 5 6
+addFive 5 6
+
+
+let me = mkUser "Brian" 42
+
+
+printUser UnregisteredUser
+printUser me
+
+let humboldt = Peng SouthAmerica
+let gal = Peng Galapagos
+
+gimmeWhereTheyLive humboldt
+
+galapagosPenguin gal
+
+funcZ 1
+funcZ 0
+
+pal [1,2,3]
+pal [3,2,1,2,3]
+
+
+functionC 1 3
+functionC 11 3
+
+ifEvenAdd2 6
+
+
+nums (-4)
+
+
+(flip' (-) 3 1)
+
+employeeRank compare Manager Coder
+
+
+oneIsOne
+oneIsTwo
+
+
+myAbs (-5)
+myAbs 5
+
+bloodNa 135
+
+isRightTri 3 4 5
+
+addOnePF 45
+
+

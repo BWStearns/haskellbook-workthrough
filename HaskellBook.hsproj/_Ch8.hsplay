@@ -1,0 +1,10 @@
+-- Haskell Playground 1.0
+fac 5
+
+let x = take 5 . 
+        filter odd . 
+        enumFrom $ 3
+
+x
+
+dividedBy 20 4

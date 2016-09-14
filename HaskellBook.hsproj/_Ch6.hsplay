@@ -1,0 +1,51 @@
+-- Haskell Playground 1.0
+all (== 11) [11, 11]
+
+divMod 14 3
+
+let ns = [1,2,3,4]
+let ls = "ABCD"
+
+zip ls ns
+
+let allSucc = map succ
+
+allSucc . allSucc $ ls
+
+Blah
+Woot
+
+Trivial == Trivial
+
+let d1 = Date Wed 9
+let d2 = Date Wed 9
+let d3 = Date Wed 10
+let d4 = Date Thu 10
+
+d1 == d2
+d1 == d3
+d3 == d4
+
+numToBool 0
+numToBool' 1
+
+TisAn 5 == TisAn 6
+
+Two 5 3 == Two 4 6
+Two 5 5 == Two 5 5
+Two 5 5 == Two 4 5
+
+
+Pair 4 4 == Pair 4 65
+
+
+Tuple 5 "A" == Tuple 5 "B"
+
+Sentence "dogs" "drool"
+
+fromEnum Wed
+
+
+chk fromEnum Wed 2
+
+arith fromEnum 5 Thu

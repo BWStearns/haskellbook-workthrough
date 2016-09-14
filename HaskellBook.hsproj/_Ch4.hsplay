@@ -1,0 +1,25 @@
+-- Haskell Playground 1.0
+Blah
+let moods = [Blah, Woot, Blah]
+
+
+changeMood Blah
+map changeMood moods
+
+let myTup = (11 :: Integer, "Blah!")
+
+myTup
+fst myTup
+snd myTup
+
+import Data.Tuple
+
+swap myTup
+
+type Name = String
+
+data Pet = Cat | Dog Name deriving Show
+
+let h = Dog "Hadley"
+h
+

@@ -1,0 +1,24 @@
+-- Haskell Playground 1.0
+let fiveToTwenty = [5..20]
+
+let mid = div (length fiveToTwenty) 2
+
+myWords "foo bar"
+
+[x^2 | x <- [1..10]]
+
+let mySqr = [x^2 | x <- [1..5]]
+
+map (^3) foo
+
+let fplus = fmap (+1)
+
+length . filter (\x -> (rem x 3) == 0) $ foo
+
+filter' even [1..10]
+
+
+
+let odds = filter odd [1..10]
+let evens = filter even [1..10]
+myOr $ map odd evens

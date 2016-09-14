@@ -1,0 +1,25 @@
+-- Haskell Playground 1.0
+'a' :: Char
+"hello" :: [Char]
+
+map (+ 1) [1, 2, 3]
+incAll [1, 2, 3]
+let foo = "abrakadabra"
+drop 5 foo
+take 5 foo
+
+sequence [drop 5, take 5] foo
+
+(!!) foo 0
+
+concat [[1, 2, 3], [4, 5, 6]]
+(++) [1,2,3] [4,5,6]
+"hello" ++ " world"
+
+exclaim "FOO"
+
+
+let curry = "Curry is awesome!"
+
+fourth curry
+drop9 curry

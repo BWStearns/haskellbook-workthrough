@@ -1,0 +1,17 @@
+-- Haskell Playground 1.0
+encodeChar 5 'a'
+
+decodeChar 5 'a'
+
+caesarShift 5 "foobar--"
+
+caesarUnshift 5 (caesarShift 5 "foobar--")
+
+
+let code = "smk xkl jvww jwdtduqvw dwxcc wv gfy"
+
+let vk = viginereKey "hired"
+
+cycle vk
+
+viginereDecode "hired" code

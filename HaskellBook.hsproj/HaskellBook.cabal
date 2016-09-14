@@ -1,0 +1,28 @@
+name: HaskellBook
+version: 1.0
+cabal-version: 1.11
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+x-ghc-framework-version: 7.10.3-5.9-2
+x-last-ide-version: HfM1.2.1
+Executable HaskellBook
+  main-is: HaskellBook.hs
+  buildable: True
+  build-depends:
+      base -any
+  other-modules:
+      Ch5
+      Print2
+      Ch4
+      HaskellBook2
+      Print1
+      Ch7
+      Print3Broken
+      GreetIfCool
+      WordNumber
+      Cipher
+      Ch9
+      Ch6
+      Ch8
+      Print3

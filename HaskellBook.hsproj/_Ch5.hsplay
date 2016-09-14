@@ -1,0 +1,36 @@
+-- Haskell Playground 1.0
+(+)
+
+5 + 45
+
+let addTen = addStuff 5
+
+addTen 10
+
+let u = undefined
+
+ignoreArgs 5 5 5
+ignoreArgs "wut" u "bar"
+ignoreArgs "wut" 1 "bar"
+ignoreArgs "wut" "FOO" "bar"
+
+let c = 10 :: Integer
+
+c
+
+fromIntegral c
+
+data Foo = A 
+         | B 
+         | C 
+         | D
+         | E
+         deriving (Enum, Show)
+
+let bar = [A, B, C, B, C]
+
+
+
+sum $ map fromEnum bar
+
+succ . succ . succ . succ $ A
